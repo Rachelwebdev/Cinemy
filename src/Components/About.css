@@ -1,0 +1,46 @@
+.about-main-container {
+  background-color: rgb(47, 7, 90);
+  color: white;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.intro-heading {
+  font-size: 3rem;
+}
+
+.sub-heading {
+  font-size: 2.5rem;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-skip: edges;
+  text-decoration-style: double;
+  text-decoration-color: purple;
+}
+
+.offer-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5rem;
+}
+
+.header-text {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.btn-movies {
+  margin: 0 auto;
+  padding: 1.2rem 2.5rem;
+  background-color: black;
+  color: white;
+  border: 2px solid purple;
+  border-radius: 12px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}

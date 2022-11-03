@@ -1,6 +1,6 @@
 import hamburgerMenuStyle from "./Nav.module.css";
 import { useState } from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -72,7 +72,7 @@ const Navbar = () => {
               href="/register"
               onClick={handleMenu}
             >
-              Sign Up
+              SIGNUP
             </Link>
           </li>
         </ul>
@@ -89,7 +89,6 @@ const Navbar = () => {
           <span className={hamburgerMenuStyle.bar}></span>
         </div>
       </nav>
-      <Outlet />
     </header>
   );
 };

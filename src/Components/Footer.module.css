@@ -1,0 +1,44 @@
+.main {
+  background-color: black;
+  color: white;
+}
+
+.footerContainer {
+  border-bottom: 1px solid purple;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+}
+
+.heading {
+  color: rgb(152, 152, 147);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 14px;
+  padding: 0.2rem 0;
+  opacity: 0.9;
+}
+
+span {
+  margin-right: 0.5rem;
+}
+
+.Copyright {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+@media (max-width: 1230px) {
+  .footerContainer {
+    flex-direction: column;
+    text-align-last: center;
+    width: 100%;
+  }
+  .heading {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+}
