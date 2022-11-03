@@ -1,0 +1,117 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  box-shadow: rgba(61, 61, 61, 0.3) 0px 1px 10px 0px;
+  width: 100vw;
+  height: 70px;
+}
+
+.navLogo {
+  margin-left: 2rem;
+  width: 70px;
+  height: 50px;
+}
+.navMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.navMenu li {
+  padding: 1rem 0;
+}
+
+.navMenu li a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+  margin-right: 4rem;
+}
+
+.navItem:hover {
+  cursor: pointer;
+  color: #e809a0;
+}
+
+/* .menuContact {
+  display: block;
+  background-color: #ad0a3b;
+  border: transparent;
+  margin-right: 3rem;
+  margin-top: 0.5rem;
+  width: 150px;
+  padding: 0.7rem;
+  font-weight: 600;
+  color: black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: centre;
+} */
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+@media only screen and (max-width: 1230px) {
+  .navbar {
+    background-color: #fff;
+    color: #101010;
+    width: 100%;
+  }
+
+  .navMenu {
+    position: fixed;
+    left: -100%;
+    top: 4rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 40%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .navMenu.active {
+    left: 0;
+  }
+
+  .navItem {
+    margin: 1.5rem;
+  }
+
+  .hamburger {
+    margin-right: 3rem;
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    -webkit-transform: translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
