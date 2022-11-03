@@ -38,7 +38,7 @@ const Movies = () => {
             movies.map((movie) => {
               const text = movie.overview;
               return (
-                <div className="movies">
+                <div key={movie.id} className="movies">
                   <img
                     src={`${baseImgUrl}/${movie.backdrop_path}`}
                     alt="movie poster"

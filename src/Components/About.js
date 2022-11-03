@@ -2,7 +2,12 @@ import React from "react";
 import "./About.css";
 import { Link, Outlet } from "react-router-dom";
 import { BsFillArrowRightSquareFill } from "react-icons/bs";
-
+import useAuthContext from "./useAuthContext";
+import { Navigate } from "react-router-dom";
+const { user } = useAuthContext();
+if (!user) {
+  return <Navigate replace to="/login" />;
+}
 const About = () => {
   return (
     <div className="about-main-container">
