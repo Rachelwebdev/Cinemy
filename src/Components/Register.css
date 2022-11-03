@@ -1,11 +1,14 @@
 .register-container {
   background-color: black;
-  width: 100%;
+  width: 50%;
   border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 .register-heading {
-  color: #efc006;
+  color: purple;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -31,30 +34,29 @@
 .register-form-container > input {
   border-radius: 20px;
 }
+
+::placeholder {
+  color: purple;
+}
+
 .btn-form-submit {
   cursor: pointer;
-  background-color: #efc006;
-  color: white;
-  font-size: 16px;
+  color: purple;
+  border: 2px solid purple;
+  font-size: 20px;
   text-decoration: none;
-  border: none;
-  padding: 16px 20px;
+  padding: 10px 5px;
   border-radius: 12px;
   margin-top: 2rem;
-  width: 60%;
+  width: 50%;
+  font-weight: 600;
 }
 
 .btn-form-submit:hover {
   background-color: white;
-  color: #efc006;
-  padding: 20px 25px;
+  color: purple;
+  padding: 15px;
   font-size: 20px;
   border: 1px solid #efc006;
   font-weight: 800;
-}
-
-@media screen and (max-width: 550px) {
-  .register-heading {
-    font-size: 25px;
-  }
 }

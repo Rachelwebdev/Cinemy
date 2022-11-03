@@ -7,9 +7,9 @@ const Login = ({ count, setCount }) => {
     throw new Error("HAHAHA! YOU STEPPED ON A TIME BOMB! 😂");
   }
   return (
-    <div>
+    <div className="Login-container">
       <form action="" className="form-container">
-        <h1 className="login-heading">Login to watch ! 👨‍👩‍👦‍👦</h1>
+        <h1 className="login-heading">Login to Cinemy</h1>
         <label className="email-label" htmlFor="email">
           <b>Email</b>
         </label>
@@ -28,7 +28,7 @@ const Login = ({ count, setCount }) => {
           LOGIN
         </Link>
         <button onClick={() => setCount(count + 1)} className="btn-error">
-          TIME BOMB 🧨 <br />
+          ERROR BOMB 🧨 <br />
           <span className="count">{count}</span>
         </button>
       </form>

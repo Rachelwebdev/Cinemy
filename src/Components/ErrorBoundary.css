@@ -3,14 +3,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(239, 232, 224);
+  background-color: whitesmoke;
   height: 100vh;
 }
 
 .error-message {
   margin-top: 3rem;
   font-size: 60px;
-  color: #c69f00;
+  color: purple;
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -20,13 +20,13 @@
 }
 
 .btn-save-me {
+  border: 1px dashed purple;
   margin-top: 2rem;
   margin: 2rem auto 0;
   padding: 0.9rem;
-  background-color: black;
-  color: #efc006;
+  background-color: white;
+  color: purple;
   border-radius: 1rem;
-  border: none;
   font-weight: 600;
   cursor: pointer;
   text-align: center;
@@ -36,7 +36,7 @@
 
 .btn-save-me:hover {
   background-color: white;
-  border: 2px solid #efc006;
+  border: 2px solid purple;
   font-weight: 800;
   color: black;
 }

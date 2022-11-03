@@ -1,15 +1,23 @@
+.Login-container {
+  /* background-color: #000000; */
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
 .form-container {
-  margin: 2rem 0 0;
-  width: 30%;
   background-color: white;
+  border: 1px solid purple;
+  width: 30%;
   padding: 1.5rem 3rem 2rem;
   display: flex;
   flex-direction: column;
+  border-radius: 3rem;
 }
 
 .form-container h1 {
-  color: #000000;
-  font-size: 1.9rem;
+  color: black;
+  font-size: 2.5rem;
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -17,8 +25,8 @@ input[type="text"],
 input[type="password"] {
   width: 100%;
   padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
+  margin: 20px 0 22px 0;
+  border-radius: 1rem;
   background: #f1f1f1;
 }
 
@@ -30,21 +38,18 @@ input[type="password"]:focus {
 }
 
 .btn-submit {
-  margin: 0 auto;
-  width: 70%;
-  background-color: #efc006;
-  color: white;
-  font-size: 1rem;
-  font-weight: 600;
   text-decoration: none;
-  opacity: 0.7;
-  border: none;
-  padding: 16px 20px;
+  margin: 0 auto;
+  padding: 10px 25px;
+  background-color: black;
+  color: white;
+  border: 2px solid purple;
   border-radius: 12px;
-  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 .btn-submit:hover {
-  color: #efc006;
+  color: purple;
   background-color: white;
   font-size: 1.5rem;
   cursor: pointer;
@@ -56,24 +61,30 @@ input[type="password"]:focus {
 }
 
 .btn-error {
-  margin-top: 2rem;
-  width: 50%;
-  margin: 2rem auto 0;
-  padding: 0.9rem;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 10px 20px;
   background-color: black;
-  color: #efc006;
-  border-radius: 1rem;
-  border: none;
-  font-weight: 600;
-  cursor: pointer;
+  color: white;
+  border: 2px solid purple;
+  border-radius: 12px;
+  font-size: 10px;
+  letter-spacing: 1px;
 }
 
 .btn-error:hover {
   background-color: white;
-  border: 2px dashed #efc006;
-  color: #efc006;
+  border: 2px dashed purple;
+  color: purple;
+  background-color: white;
+  font-size: 15px;
+  cursor: pointer;
   font-weight: 600;
-  width: 70%;
+  opacity: 1;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 @media screen and (max-width: 900px) {

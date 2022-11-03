@@ -1,0 +1,28 @@
+.movieContainer {
+  margin-top: 6rem;
+}
+.movieContainer h3 {
+  font-size: 3rem;
+}
+.main-movie-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.loading-text {
+  font-size: 30px;
+}
+.movies {
+  margin-bottom: 2rem;
+}
+
+.overview {
+  font-size: 13px;
+  max-width: 80%;
+  opacity: 0.5;
+}
+
+.btnShow {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+}

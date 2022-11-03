@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="about-main-container">
       <h1 className="intro-heading">
-        WATCH YOUR FAVOURITE MOVIES ON CINEMY 🍿
+        GET TO KNOW ALL TRENDING MOVIES ON CINEMY 🍿
       </h1>
       <p className="sub-heading">WHAT WE ACTUALLY OFFER?</p>
       <div className="offer-container">
@@ -21,7 +21,7 @@ const About = () => {
         </div>
         <div className="third-offer">
           <p className="header-text">HD</p>
-          <p className="description">High Quality Videos and Images</p>
+          <p className="description">High Quality Images</p>
         </div>
         <div className="fourth-offer">
           <p className="header-text">Easy</p>

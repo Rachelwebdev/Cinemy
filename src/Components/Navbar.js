@@ -45,16 +45,7 @@ const Navbar = () => {
               About
             </Link>
           </li>
-          <li>
-            <Link
-              to="/movies"
-              className={hamburgerMenuStyle.navItem}
-              href="/movies"
-              onClick={handleMenu}
-            >
-              Movies
-            </Link>
-          </li>
+
           <li>
             <Link
               to="/login"

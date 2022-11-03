@@ -6,7 +6,6 @@
   background-color: black;
   /* margin-bottom: 5rem; */
   padding-bottom: 2rem;
-  border-bottom: 1px solid purple;
 }
 
 .right-side {
@@ -32,6 +31,7 @@
 }
 
 .login-btn {
+  text-decoration: none;
   margin: 0 auto;
   padding: 1.2rem 2.5rem;
   background-color: black;
