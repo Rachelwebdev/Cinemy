@@ -56,15 +56,13 @@
 @media (max-width: 700px) {
   .home-container {
     flex-direction: column-reverse;
-    /* margin-top: 50rem; */
-    /* height: 100vh; */
+    height: 150vh;
   }
   .left-image {
+    width: 100%;
   }
   .right-side {
     width: 80%;
-    /* padding-top: 5rem; */
-    /* padding-bottom: 3rem; */
   }
 }
 

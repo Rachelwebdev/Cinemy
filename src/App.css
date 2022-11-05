@@ -7,6 +7,6 @@ body {
 }
 .App {
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: "Roboto", sans-serif;
 }
