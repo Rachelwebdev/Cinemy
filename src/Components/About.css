@@ -7,12 +7,12 @@
 
 .intro-heading {
   font-size: 3rem;
+  word-spacing: 0.8rem;
 }
 
 .sub-heading {
   font-size: 2.5rem;
   text-decoration: underline;
-  text-decoration-thickness: 2px;
   text-decoration-skip: edges;
   text-decoration-style: double;
   text-decoration-color: purple;
@@ -20,7 +20,7 @@
 
 .offer-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-bottom: 5rem;
 }
 
@@ -44,4 +44,29 @@
   border-radius: 12px;
   font-size: 20px;
   letter-spacing: 1px;
+}
+
+@media (max-width: 481px) {
+  .offer-container {
+    flex-direction: column;
+  }
+  .intro-heading {
+    font-size: 2.5rem;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  .sub-heading {
+    font-size: 2rem;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 482px) and (max-width: 880px) {
+  .description {
+    margin-right: 2rem;
+    max-width: 70%;
+    padding-left: 2rem;
+  }
 }
