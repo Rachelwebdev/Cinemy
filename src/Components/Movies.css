@@ -1,5 +1,6 @@
 .movieContainer {
   margin-top: 6rem;
+  overflow-x: auto;
 }
 .movieContainer h3 {
   font-size: 3rem;
@@ -10,7 +11,7 @@
 }
 .loading-text {
   font-size: 30px;
-  text-align: center;
+  margin: 0 auto;
 }
 .movies {
   margin-bottom: 2rem;
@@ -20,10 +21,32 @@
   font-size: 13px;
   max-width: 80%;
   opacity: 0.5;
+  margin: 0 auto;
 }
 
 .btnShow {
   display: block;
   margin: 0 auto;
   margin-top: 1rem;
+}
+
+@media (max-width: 1300px) {
+  .movies {
+    /* padding: 1rem; */
+  }
+  .main-movie-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .main-movie-card {
+    grid-template-columns: repeat(1, 1fr);
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+  .overview {
+    max-width: 50%;
+    margin: 0 auto;
+  }
 }
