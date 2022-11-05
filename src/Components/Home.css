@@ -71,19 +71,20 @@
   .home-container {
     margin-top: 5rem;
   }
-  .right-side {
-  }
+
   .heading {
     font-size: 45px;
     padding-top: 2rem;
     padding-bottom: 3rem;
-    /* max-width: 40%; */
   }
-}
-
-@media (max-width: 380px) {
   .login-btn {
     width: 70%;
     padding: 1.2rem 1rem;
   }
+  .left-image {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 380px) {
 }
