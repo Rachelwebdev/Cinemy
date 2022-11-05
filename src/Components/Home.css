@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  height: 50vh;
   background-color: black;
   /* margin-bottom: 5rem; */
   padding-bottom: 2rem;
@@ -56,6 +56,7 @@
   .home-container {
     flex-direction: column-reverse;
     margin-top: 22rem;
+    height: 100vh;
   }
   .left-image {
     width: 100%;
