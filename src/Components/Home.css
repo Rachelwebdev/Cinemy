@@ -55,7 +55,7 @@
 @media (max-width: 700px) {
   .home-container {
     flex-direction: column-reverse;
-    /* margin-top: 22rem; */
+    margin-top: 22rem;
   }
   .left-image {
     width: 100%;
