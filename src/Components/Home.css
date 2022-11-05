@@ -2,13 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 50vh;
+  height: 100vh;
   background-color: black;
-  /* margin-bottom: 5rem; */
+  margin-bottom: 5rem;
   padding-bottom: 2rem;
 }
 
 .right-side {
+  margin-top: 10rem;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -55,7 +56,7 @@
 @media (max-width: 700px) {
   .home-container {
     flex-direction: column-reverse;
-    margin-top: 22rem;
+    margin-top: 50rem;
     height: 100vh;
   }
   .left-image {
@@ -69,10 +70,6 @@
 }
 
 @media (max-width: 380px) {
-  .home-container {
-    margin-top: 5rem;
-  }
-
   .heading {
     font-size: 45px;
     padding-top: 2rem;
@@ -82,10 +79,4 @@
     width: 70%;
     padding: 1.2rem 1rem;
   }
-  .left-image {
-    margin-top: 3rem;
-  }
-}
-
-@media (max-width: 380px) {
 }
