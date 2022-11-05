@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Movies.css";
 import { Outlet } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const Movies = () => {
   const [loading, setLoading] = useState(true);
@@ -27,6 +28,11 @@ const Movies = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Movies</title>
+        <meta name="description" content="Check out our latest movies here" />
+        <link rel="canonical" href="/movies" />
+      </Helmet>
       <div className="movieContainer">
         <h3>Stay Glued on Cinemy!</h3>
         <div className="main-movie-card">

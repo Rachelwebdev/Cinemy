@@ -60,7 +60,8 @@
     /* height: 100vh; */
   }
   .left-image {
-    width: 100%;
+    /* width: 100%; */
+    display: none;
   }
   .right-side {
     width: 80%;

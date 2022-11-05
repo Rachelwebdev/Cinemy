@@ -1,0 +1,4 @@
+https://cinemy-chi.vercel.app/
+https://cinemy-chi.vercel.app/about
+https://cinemy-chi.vercel.app/login
+https://cinemy-chi.vercel.app/register

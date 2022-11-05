@@ -2,10 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import { BsFillArrowRightSquareFill } from "react-icons/bs";
+import { Helmet } from "react-helmet-async";
 
 function Home() {
   return (
     <>
+      <Helmet>
+        <title>Home</title>
+        <meta name="description" content="Visit our home page from here" />
+        <link rel="canonical" href="/home" />
+      </Helmet>
       <div className="home-container">
         <div className="right-side">
           <h1 className="heading">
