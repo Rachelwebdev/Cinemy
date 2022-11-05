@@ -10,6 +10,7 @@
 }
 .loading-text {
   font-size: 30px;
+  text-align: center;
 }
 .movies {
   margin-bottom: 2rem;

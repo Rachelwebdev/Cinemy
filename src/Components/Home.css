@@ -45,3 +45,45 @@
 .icon-arrow {
   margin-left: 15px;
 }
+
+@media (min-width: 700px) and (max-width: 920px) {
+  .heading {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 700px) {
+  .home-container {
+    flex-direction: column-reverse;
+    margin-top: 22rem;
+  }
+  .left-image {
+    width: 100%;
+  }
+  .right-side {
+    width: 80%;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .home-container {
+    margin-top: 5rem;
+  }
+  .right-side {
+  }
+  .heading {
+    font-size: 45px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    /* max-width: 40%; */
+  }
+}
+
+@media (max-width: 380px) {
+  .login-btn {
+    width: 70%;
+    padding: 1.2rem 1rem;
+  }
+}
