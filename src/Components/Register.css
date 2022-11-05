@@ -1,6 +1,6 @@
 .register-container {
   background-color: black;
-  width: 50%;
+  width: 80%;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
@@ -59,4 +59,35 @@
   font-size: 20px;
   border: 1px solid #efc006;
   font-weight: 800;
+}
+
+@media screen and (max-width: 900px) {
+  .register-container {
+    max-width: 70%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .register-container {
+    max-width: 90%;
+  }
+  .register-heading {
+    font-size: 25px;
+  }
+  .btn-form-submit {
+    font-size: 15px;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 807px) {
+  .btn-form-submit {
+    font-size: 30px;
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .register-heading {
+    font-size: 60px;
+  }
 }
