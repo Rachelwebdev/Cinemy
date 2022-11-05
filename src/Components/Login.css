@@ -1,5 +1,4 @@
 .Login-container {
-  /* background-color: #000000; */
   display: flex;
   justify-content: center;
   margin: 3rem 0;
@@ -23,7 +22,7 @@
 }
 input[type="text"],
 input[type="password"] {
-  width: 100%;
+  width: 90%;
   padding: 15px;
   margin: 20px 0 22px 0;
   border-radius: 1rem;
@@ -47,12 +46,12 @@ input[type="password"]:focus {
   border-radius: 12px;
   font-size: 18px;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 .btn-submit:hover {
   color: purple;
   background-color: white;
   font-size: 1.5rem;
-  cursor: pointer;
   font-weight: 600;
   opacity: 1;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
@@ -89,6 +88,26 @@ input[type="password"]:focus {
 
 @media screen and (max-width: 900px) {
   .form-container {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .form-container {
+    width: 50%;
+  }
+  .form-container h1 {
+    font-size: 1.8rem;
+  }
+  input[type="text"],
+  input[type="password"] {
     width: 80%;
+  }
+  .btn-submit {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+  .btn-submit:hover {
+    font-size: 1rem;
+    font-weight: 500;
   }
 }

@@ -57,15 +57,15 @@
   .home-container {
     flex-direction: column-reverse;
     margin-top: 50rem;
-    height: 100vh;
+    /* height: 100vh; */
   }
   .left-image {
     width: 100%;
   }
   .right-side {
     width: 80%;
-    padding-top: 5rem;
-    padding-bottom: 3rem;
+    /* padding-top: 5rem; */
+    /* padding-bottom: 3rem; */
   }
 }
 
