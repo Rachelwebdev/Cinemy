@@ -6,18 +6,15 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { HelmetProvider } from "react-helmet-async";
-// import { AuthProvider } from "./Component/AuthContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <ErrorBoundary>
-        {/* <AuthProvider> */}
         <HelmetProvider>
           <App />
         </HelmetProvider>
-        {/* </AuthProvider> */}
       </ErrorBoundary>
     </BrowserRouter>
   </React.StrictMode>
