@@ -1,6 +1,7 @@
 import hamburgerMenuStyle from "./Nav.module.css";
-import { useState } from "react";
+import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
+import { UserContext } from "./UserContext";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -9,6 +10,7 @@ const Navbar = () => {
     setActive(!active);
   };
 
+  const { user } = useContext(UserContext);
   return (
     <header className={hamburgerMenuStyle.header}>
       <nav className={hamburgerMenuStyle.navbar}>
@@ -56,14 +58,24 @@ const Navbar = () => {
               Log In
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to="/register"
               className={hamburgerMenuStyle.navItem}
               href="/register"
               onClick={handleMenu}
             >
-              SIGNUP
+              Register
+            </Link>
+          </li> */}
+          <li>
+            <Link
+              to="/about"
+              className={hamburgerMenuStyle.navItem}
+              href="/about"
+              onClick={handleMenu}
+            >
+              {`Hello ${user} 👋`}
             </Link>
           </li>
         </ul>
