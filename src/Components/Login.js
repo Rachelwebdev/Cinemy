@@ -59,6 +59,9 @@ const Login = ({ count, setCount }) => {
             ERROR BOMB 🧨 <br />
             <span className="count">{count}</span>
           </button>
+          <Link to="/register" className="register-link">
+            Register Here
+          </Link>
         </form>
         <Outlet />
       </div>

@@ -86,6 +86,17 @@ input[type="password"]:focus {
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
+.register-link {
+  text-decoration-color: red;
+  text-align: center;
+  margin-top: 1rem;
+  color: purple;
+}
+.register-link:hover {
+  cursor: pointer;
+  font-size: 20px;
+}
+
 @media screen and (max-width: 900px) {
   .form-container {
     width: 70%;

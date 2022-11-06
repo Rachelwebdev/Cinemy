@@ -39,6 +39,13 @@
   color: purple;
 }
 
+input[type="password"] {
+  width: 90%;
+  padding: 15px;
+  margin: 20px 0 22px 0;
+  border-radius: 1rem;
+  background: #f1f1f1;
+}
 .btn-form-submit {
   cursor: pointer;
   color: purple;
