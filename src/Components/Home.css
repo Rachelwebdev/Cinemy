@@ -56,6 +56,7 @@
   .home-container {
     flex-direction: column-reverse;
     padding-bottom: 2rem;
+    height: 100vh;
   }
   .left-image {
     width: 100%;
